@@ -1,0 +1,9 @@
+1-Introduced the concept of vehicle_type. Vehicles can now be of any type ("Car", "Truck", "Bike", etc.).
+
+2-The time when each vehicle enters and exits a signal is recorded. If the time difference is less than 5 seconds,
+it is considered a speeding violation (this is a simplification for the simulation; real-world calculations would
+be more complex).
+
+3-A red signal violation is detected when a vehicle exits a signal without entering it or enters a signal but does not exit.
+
+4-In each violation message, the type of vehicle is also mentioned for more detailed tracking.
